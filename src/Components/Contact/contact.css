@@ -67,3 +67,8 @@ button {
     background-color: rgb(182, 40, 248);
     color: aliceblue;
 }
+
+button:hover {
+    font-weight: 700;
+    transition: 0.5s;
+}

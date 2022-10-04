@@ -46,6 +46,8 @@ td {
 
 .company ul li:hover {
     color: rgb(240, 185, 4);
+    /* font-weight: 600; */
+    transform: 0.5s;
 }
 
 .company {
@@ -64,6 +66,7 @@ td {
 .fb:hover {
     background-color: rgb(14, 14, 184);
     color: #fff;
+
 }
 
 .ins:hover {

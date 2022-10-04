@@ -34,6 +34,7 @@
 .nav_nemu ul li:hover {
     color: #FBCC0E;
     transform: 0.4s;
+    font-weight: 700;
 }
 
 .nav_nemu ul button {
