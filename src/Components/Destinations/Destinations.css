@@ -1,0 +1,84 @@
+.dest_title {
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 1.2rem;
+}
+
+.dest_heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.7rem;
+    color: rgb(62, 62, 102);
+    font-family: "Volkhov", "DM Serif Display", cursive;
+}
+
+.cards {
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.cards_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.place {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.place_name {
+    font-size: 1.2rem;
+    font-weight: 600;
+
+
+}
+
+.place_name:hover {
+    color: #facc16;
+    transform: 0.4s;
+}
+
+.place_desc {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    color: #5E6282;
+}
+
+.place_desc img {
+    padding-right: 1rem;
+}
+
+.card_image img {
+    border-radius: 20px 20px 0 0;
+}
+
+.dest_container {
+    background-image: url("../../assets/img/dest/shape.svg");
+    background-repeat: no-repeat;
+    background-position: top 200px right 80px;
+    margin-bottom: 7rem;
+    margin-top: 6rem;
+}
+
+.place_price {
+    color: #5E6282;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.place_desc span {
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 1.2rem;
+}

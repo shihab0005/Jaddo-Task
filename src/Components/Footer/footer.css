@@ -1,0 +1,89 @@
+.footer_container {
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(112, 112, 167);
+    margin-top: 2rem;
+    line-height: 190%;
+}
+
+table,
+th,
+td {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.company ul {
+    list-style: none;
+
+
+}
+
+.li_head {
+    margin-bottom: 1rem;
+    color: black !important;
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+
+}
+
+.company ul li {
+    color: #5E6282;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.company ul li:hover {
+    color: rgb(240, 185, 4);
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_links span i {
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: antiquewhite;
+    margin-right: 1rem;
+}
+
+.fb:hover {
+    background-color: rgb(14, 14, 184);
+    color: #fff;
+}
+
+.ins:hover {
+    background-color: crimson;
+    color: #fff;
+}
+
+.twi:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.links h5 {
+    color: #5E6282;
+    margin-top: 1.5rem;
+}
+
+.app_store {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,62 @@
+.ctg_title {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.ctg_heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgb(62, 62, 102);
+    font-family: "Volkhov", "DM Serif Display", cursive;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-image: url("../../assets/img/partner/download.jpg");
+    background-repeat: no-repeat;
+    background-position: top 120px left 250px;
+
+}
+
+.card_container {
+    border-radius: 20px;
+    padding: 7px;
+    /* border: 2px solid rebeccapurple; */
+    cursor: pointer;
+
+}
+
+.card_container:hover {
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+.card_container_imge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctg_card_title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.ctg_card_desc {
+    text-align: center;
+}
+
+.ctg_container {
+    background-image: url("../../assets/img/category/shape.svg");
+    background-repeat: no-repeat;
+    background-position: top 10px right 20px;
+}
